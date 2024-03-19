@@ -1,0 +1,20 @@
+# BotID that you can get from BotFather when you want to create a new BOT
+# After create a chat with the Bot
+Token=12345678:AAkfjgajasdifahldljfad
+
+# chatID == userID for non-group telegram. if its a group, then will have a different chatID from userID
+# can get the ID via /chatid once this program is run
+ChatID=912345678
+
+# Telegram UserID - only allow users with this user id to operate the bot (prog for up to 2 users)
+tgUserID="912345678"
+tgUserID2="912345678"
+
+maxPerSide=5
+watchList=[{"name":"ADA_USD"}, {"name":"BTC_USD"},{"name":"CRO_USD"},{"name":"ETH_CRO"},{"name":"CRO_BTC"},{"name":"MATIC_USD"},{"name":"ETH_USD"},{"name":"SHIB_USD"},{"name":"TONIC_USD"},{"name":"XRP_USD"},{"name":"VVS_USD"},{"name":"ETH_BTC"},{"name":"GALA_USD"}]
+
+#can support multiple sub accounts, each sets start with acctName
+accountList=[{"acctName":"Main Account","autoTrade":false,"autoSettings":[{"ticker":"CRO_USD","buyQty":510,"sellQty":500,"interval":0.01,"profit":0.02,"priceDec":5}],"apiKey":"xxxx","apiSecret":"xxx","walletList":[{"name":"cro","dec":"2"},{"name":"btc","dec":5},{"name":"eth","dec":2},{"name":"usd","dec":2}]}]
+
+#Sample if got more than 2 sub-accounts
+#accountList=[{"acctName":"Main","autoTrade":false,"autoSettings":[{"ticker":"ADA_USD","buyQty":21,"sellQty":20,"interval":0.01,"profit":0.05,"priceDec":5}],"apiKey":"xxxx","apiSecret":"xxx","walletList":[{"name":"cro","dec":1},{"name":"btc","dec":"5"},{"name":"eth","dec":"4"},{"name":"gala","dec":"6"},{"name":"matic","dec":"2"},{"name":"xrp","dec":"2"},{"name":"usd","dec":2}]},{"acctName":"Sub Account","autoTrade":false,"autoSettings":[{"ticker":"CRO_USD","buyQty":510,"sellQty":500,"interval":0.01,"profit":0.02,"priceDec":5}],"apiKey":"xxxx","apiSecret":"xxx","walletList":[{"name":"cro","dec":"2"},{"name":"btc","dec":5},{"name":"eth","dec":2},{"name":"usd","dec":2}]}]

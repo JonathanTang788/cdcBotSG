@@ -1,5 +1,6 @@
 # Steps Needed #
 
+0. Need to Rename 'env_Sample' to '.env' and edit the files for configurations
 1. You need to create an API key (or multiple keys for multiple sub accounts) in CDC.
 2. Remember to restrict IP address in CDC for safety and disable trading if you only using the Bot for order status checking.
 3. Go to Telegram's BotFather and create a new Bot (to get the token ID) and add the token ID to .env 'Token'
